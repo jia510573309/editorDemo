@@ -4,6 +4,7 @@
 	<groupId>com.demo</groupId>
 	<artifactId>EditorDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<name>EditorDemo</name>
 	<description>文本编辑器</description>
 	<parent>
@@ -13,6 +14,7 @@
 	</parent>
 	<!-- Springboot -->
 	<dependencies>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -34,6 +36,12 @@
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>2.5</version>
+		</dependency>
+		<!-- 导出excel -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.0.0</version>
 		</dependency>
 	</dependencies>
 </project>
